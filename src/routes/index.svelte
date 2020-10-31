@@ -5,6 +5,10 @@
       `https://us-central1-pugstagram-co.cloudfunctions.net/data`
     );
     data = await response.json();
+    // console.log('Antes:',data);
+    data.user.name='Noemi Medina';
+    data.user.nickname='Noe';
+    // console.log('Despues:', data)
     return { data };
   }
 </script>
