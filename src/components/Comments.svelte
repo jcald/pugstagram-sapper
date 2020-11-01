@@ -7,7 +7,7 @@
       const message = {
         id: Date.now(),
         text: msg,
-        username: "gndx"
+        username: "Noemí"
       };
       comments = [...comments, message];
       event.target.text.value = "";
